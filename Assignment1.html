@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- NodeJS Session2 Assignment3.Create a simple nested function in which inner 
+     function is not accessible outside the outer function. -->
+<html>
+  <head>
+    <title>NodeJs Session2 Assignment1</title>
+    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 text-center">
+                <label for="available_employee">Available Employee - <span id="available_employee_count"></span></label><br>
+                <select multiple class="form-control" id="ava_employee" style="height:200px;">
+                </select>
+            </div>
+            <div class="col-sm-2 text-center">
+                <div class="row">
+                    <button type="button" class="btn btn-default" id="single_right_btn" style="width:65px;">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </button>
+                </div><br>
+                <div class="row">
+                    <button type="button" class="btn btn-default" id="multiple_right_btn" style="width:65px;">
+                        <span class="glyphicon glyphicon-th-list"></span>
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </button>
+                </div><br>
+                <div class="row">
+                    <button type="button" class="btn btn-default" id="single_left_btn" style="width:65px;">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </button>
+                </div><br>
+                <div class="row">
+                    <button type="button" class="btn btn-default" id="multiple_left_btn" style="width:65px;">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="glyphicon glyphicon-th-list"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-sm-5 text-center">
+                <label for="selected_employee">Selected Employee - <span id="selected_employee_count"></span></label><br>
+                <select multiple class="form-control" id="selec_employee" style="height:200px;">
+                </select>
+            </div>
+        </div>
+    </div>
+    <!-- Include Third party libraries -->
+    <script src="external/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Include External JS -->
+    <script src="Assignment1.js"></script>
+  </body>
+</html>
